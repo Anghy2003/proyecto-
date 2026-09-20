@@ -1,0 +1,21 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< edu.uees:semana6-lab-diagnostico >------------------
+[INFO] Building semana6-lab-diagnostico 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ semana6-lab-diagnostico ---
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ semana6-lab-diagnostico ---
+[INFO] skip non existing resourceDirectory C:\Users\Angie\Documents\UESS\diagnostico-semana6\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ semana6-lab-diagnostico ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 4 source files with javac [debug target 21] to target\classes
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.198 s
+[INFO] Finished at: 2026-09-20T17:19:15-05:00
+[INFO] ------------------------------------------------------------------------

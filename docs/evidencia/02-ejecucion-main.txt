@@ -1,0 +1,4 @@
+Guardando reserva R-001
+Correo enviado a ana@uees.edu.ec
+Estado: CONFIRMADA
+Total: 34.0
