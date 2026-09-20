@@ -1,0 +1,48 @@
+=== LB-01 | NORMAL valida | correo valido | 5 h ===
+Guardando reserva R-001
+Correo enviado a ana@uees.edu.ec
+Retorno: 40.0
+Estado : CONFIRMADA
+
+=== LB-02 | VIP valida | correo valido | 5 h ===
+Guardando reserva R-002
+Correo enviado a ana@uees.edu.ec
+Retorno: 34.0
+Estado : CONFIRMADA
+
+=== LB-03 | Correo invalido | "incorrecto" | 5 h ===
+Retorno: 0.0
+Estado : PENDIENTE
+
+=== LB-04 | Periodo invalido | fin = inicio | 5 h ===
+Retorno: 0.0
+Estado : PENDIENTE
+
+=== LB-05 | Limite valido | 2 h de anticipacion ===
+Guardando reserva R-005
+Correo enviado a ana@uees.edu.ec
+Retorno: 40.0
+Estado : CONFIRMADA
+
+=== LB-06 | Limite invalido | 1 h de anticipacion ===
+Retorno: 0.0
+Estado : PENDIENTE
+
+--- Observaciones complementarias ---
+
+=== LB-07 | Reserva nula | 5 h ===
+Retorno: 0.0
+Estado : sin reserva
+
+=== LB-08 | Tipo "vip" en minuscula | 5 h ===
+Guardando reserva R-008
+Correo enviado a ana@uees.edu.ec
+Retorno: 40.0
+Estado : CONFIRMADA
+
+=== LB-09 | Tipo desconocido "PREMIUM" | 5 h ===
+Guardando reserva R-009
+Correo enviado a ana@uees.edu.ec
+Retorno: 40.0
+Estado : CONFIRMADA
+
