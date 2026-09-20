@@ -1,0 +1,11 @@
+$ git log --oneline
+cf62ae8 docs: agregar reflexion tecnica y guia de la entrega
+1dac134 docs: proponer pruebas protectoras y plan priorizado
+e9728c1 docs: completar matriz de diagnostico y matriz de riesgo
+a8da52a docs: completar linea base y mapa de responsabilidades
+b998e42 chore: agregar ejecutor de escenarios para observar la linea base
+d43a9c8 docs: registrar evidencia de entorno, compilacion y ejecucion inicial
+ddf3759 chore: registrar proyecto heredado y linea base
+
+$ git diff --stat $(git rev-list --max-parents=0 HEAD) HEAD -- src/main/java/edu/uees/refactor/service src/main/java/edu/uees/refactor/domain src/main/java/edu/uees/refactor/app/Main.java pom.xml
+(sin diferencias: el codigo heredado no fue modificado)
