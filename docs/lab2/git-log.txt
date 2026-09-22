@@ -1,0 +1,10 @@
+$ git log --oneline --decorate main..lab2-red-de-seguridad
+a30313b (HEAD -> lab2-red-de-seguridad, origin/lab2-red-de-seguridad, ae5/lab2-red-de-seguridad) docs: documentar la red de seguridad y el experimento de regresion
+71b2f4f refactor: extraer calculo de tarifa
+db893ef test: caracterizar comportamiento heredado
+
+$ git remote -v
+ae5	https://github.com/Anghy2003/ae5-refactorizacion.git (fetch)
+ae5	https://github.com/Anghy2003/ae5-refactorizacion.git (push)
+origin	https://github.com/Anghy2003/proyecto-.git (fetch)
+origin	https://github.com/Anghy2003/proyecto-.git (push)
