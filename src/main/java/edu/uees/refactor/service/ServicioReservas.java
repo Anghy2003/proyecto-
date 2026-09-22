@@ -34,11 +34,7 @@ public class ServicioReservas {
             return 0;
         }
 
-        double total = 40;
-
-        if ("VIP".equals(r.getTipo())) {
-            total = total * 0.85;
-        }
+        double total = calcularTarifa(r);
 
         System.out.println(
                 "Guardando reserva " + r.getId()
@@ -49,6 +45,21 @@ public class ServicioReservas {
         );
 
         r.confirmar();
+
+        return total;
+    }
+
+    /**
+     * Refactorizacion protegida del Laboratorio 2 (Extract Method):
+     * el calculo de la tarifa sale del flujo principal a un metodo con
+     * intencion. La regla no cambia: 40 de base y 15 % menos para VIP.
+     */
+    private double calcularTarifa(Reserva r) {
+        double total = 40;
+
+        if ("VIP".equals(r.getTipo())) {
+            total = total * 0.85;
+        }
 
         return total;
     }
