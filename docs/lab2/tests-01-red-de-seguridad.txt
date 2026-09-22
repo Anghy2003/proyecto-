@@ -1,0 +1,45 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< edu.uees:semana6-lab-diagnostico >------------------
+[INFO] Building semana6-lab-diagnostico 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ semana6-lab-diagnostico ---
+[INFO] Deleting C:\Users\Angie\Documents\UESS\diagnostico-semana6\target
+[INFO] 
+[INFO] --- resources:3.4.0:resources (default-resources) @ semana6-lab-diagnostico ---
+[INFO] skip non existing resourceDirectory C:\Users\Angie\Documents\UESS\diagnostico-semana6\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:compile (default-compile) @ semana6-lab-diagnostico ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 5 source files with javac [debug target 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.4.0:testResources (default-testResources) @ semana6-lab-diagnostico ---
+[INFO] skip non existing resourceDirectory C:\Users\Angie\Documents\UESS\diagnostico-semana6\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.15.0:testCompile (default-testCompile) @ semana6-lab-diagnostico ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 2 source files with javac [debug target 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ semana6-lab-diagnostico ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running edu.uees.refactor.domain.ReservaTest
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s -- in edu.uees.refactor.domain.ReservaTest
+[INFO] Running edu.uees.refactor.service.ServicioReservasTest
+[INFO] Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.035 s -- in edu.uees.refactor.service.ServicioReservasTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 17, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  4.047 s
+[INFO] Finished at: 2026-09-22T18:36:22-05:00
+[INFO] ------------------------------------------------------------------------
