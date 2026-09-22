@@ -1,4 +1,28 @@
-# Semana 6 | Laboratorio evaluado 1 · Diagnóstico técnico de código heredado
+# Semana 6 | Sistema de reservas de tutorías · diagnóstico, red de seguridad y refactorización
+
+Este repositorio tiene tres entregas sobre el mismo código heredado:
+
+| Rama | Entrega | Estado del código |
+|---|---|---|
+| `main` | Laboratorio 1 · Diagnóstico técnico | **Código inicial**, sin modificar, con línea base y diagnóstico |
+| `lab2-red-de-seguridad` | Laboratorio 2 · Red de seguridad con JUnit 5 | 17 pruebas AAA verdes sobre el código heredado + una refactorización pequeña protegida |
+| `ae5-refactorizacion` | Ae5 · Refactorización respaldada por pruebas | **Código final**: 31 pruebas y cinco refactorizaciones, una por commit |
+
+## Laboratorio 2 | Cómo ejecutar
+
+```bash
+git checkout lab2-red-de-seguridad
+mvn clean test          # 17 pruebas, BUILD SUCCESS
+```
+
+El detalle de cada prueba, la refactorización protegida, el experimento de
+regresión (0.85 → 0.80) y la reflexión están en
+[`docs/09_RED_DE_SEGURIDAD_LAB2.md`](docs/09_RED_DE_SEGURIDAD_LAB2.md); las
+salidas de consola y capturas, en `docs/lab2/`.
+
+---
+
+# Laboratorio 1 · Diagnóstico técnico de código heredado
 
 Diagnóstico del sistema de reservas de tutorías heredado. El objetivo de este
 laboratorio **no** es mejorar el código: es comprender qué hace, evidenciarlo y
