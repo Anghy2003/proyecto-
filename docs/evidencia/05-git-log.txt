@@ -1,4 +1,7 @@
-$ git log --oneline
+$ git log --oneline --decorate
+e31be92 (HEAD -> main, origin/main) docs: reemplazar capturas por las de mi consola y enlazar el repositorio
+9b83c68 docs: usar la compilacion del proyecto base como evidencia de la fase A
+69a6a55 docs: registrar historial git y verificacion de codigo heredado intacto
 cf62ae8 docs: agregar reflexion tecnica y guia de la entrega
 1dac134 docs: proponer pruebas protectoras y plan priorizado
 e9728c1 docs: completar matriz de diagnostico y matriz de riesgo
@@ -6,6 +9,10 @@ a8da52a docs: completar linea base y mapa de responsabilidades
 b998e42 chore: agregar ejecutor de escenarios para observar la linea base
 d43a9c8 docs: registrar evidencia de entorno, compilacion y ejecucion inicial
 ddf3759 chore: registrar proyecto heredado y linea base
+
+$ git remote -v
+origin	https://github.com/Anghy2003/proyecto-.git (fetch)
+origin	https://github.com/Anghy2003/proyecto-.git (push)
 
 $ git diff --stat $(git rev-list --max-parents=0 HEAD) HEAD -- src/main/java/edu/uees/refactor/service src/main/java/edu/uees/refactor/domain src/main/java/edu/uees/refactor/app/Main.java pom.xml
 (sin diferencias: el codigo heredado no fue modificado)
