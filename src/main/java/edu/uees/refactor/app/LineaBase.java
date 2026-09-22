@@ -64,8 +64,8 @@ public class LineaBase {
                         INICIO, INICIO.plusHours(1), "NORMAL"),
                 1);
 
-        System.out.println("--- Observaciones complementarias ---");
         System.out.println();
+        System.out.println("--- Observaciones complementarias ---");
 
         ejecutar(
                 "LB-07",
@@ -103,6 +103,5 @@ public class LineaBase {
         System.out.println("Retorno: " + total);
         System.out.println("Estado : "
                 + (reserva == null ? "sin reserva" : reserva.getEstado()));
-        System.out.println();
     }
 }

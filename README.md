@@ -6,6 +6,7 @@ decidir con argumentos qué debería refactorizarse y con qué pruebas.
 
 - Asignatura: Diseño de Software (UCOM0310), Semana 6 · PEL 4 – 2026
 - Autora: Andrea Illescas
+- Repositorio: https://github.com/Anghy2003/proyecto-
 - Java 21 · Maven 3.9.16 · Git 2.54
 
 > **Regla respetada:** no apliqué Extract Class, Move Method, Value Objects,
@@ -66,7 +67,7 @@ exacta de texto.
 | `docs/evidencia/02-ejecucion-main.txt` | Salida original de `Main` |
 | `docs/evidencia/03-linea-base.txt` | Los nueve escenarios |
 | `docs/evidencia/04-compilacion-final.txt` | `BUILD SUCCESS` con la clase de observación (5 fuentes) |
-| `docs/cap1-entorno.png` … `docs/cap5-git-log.png` | Capturas de consola de cada paso |
+| `docs/cap1-entorno.png` … `docs/cap5-git-log.png` | Capturas reales de mi consola en cada paso |
 
 ## Hallazgos principales
 
@@ -83,7 +84,8 @@ exacta de texto.
 ## Estado del repositorio
 
 El historial deja recuperable el proyecto heredado tal como llegó y separa la
-evidencia del diagnóstico:
+evidencia del diagnóstico. El repositorio está publicado en
+https://github.com/Anghy2003/proyecto- en la rama `main`:
 
 ```bash
 git log --oneline
